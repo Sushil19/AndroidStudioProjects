@@ -88,11 +88,13 @@
 
     <Button
         android:id="@+id/registerbutton"
-        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/phone_edittext"
         android:layout_marginTop="16dp"
-        android:text="Register" />
+        android:text="Register"
+        android:background="@drawable/round_shape_btn"/>
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517485743649",
+    "firebase_url": "https://higherer-fda2c.firebaseio.com",
+    "project_id": "higherer-fda2c",
+    "storage_bucket": "higherer-fda2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517485743649:android:82f3c0df7fe6afa56b9d60",
+        "android_client_info": {
+          "package_name": "com.example.high_erer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517485743649-vukgv1pl0hk9q3t5reu2n9fpdj01upoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.high_erer",
+            "certificate_hash": "a752ab069fe682603b96f4a7d1b601873478c372"
+          }
+        },
+        {
+          "client_id": "517485743649-o4t4gtd25j6ea8s3eab3lmcd8dduj5lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUKTj340iHZBjXbVWcWekMkXcxvVf2gQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517485743649-o4t4gtd25j6ea8s3eab3lmcd8dduj5lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
