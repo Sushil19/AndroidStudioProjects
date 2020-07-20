@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content_Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#A1A1A1"
+        android:id="@+id/card1"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criminal Lawyers"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/card2"
+        android:layout_below="@+id/card1"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Injury Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card3"
+        android:layout_below="@+id/card2"
+        android:background = "#AAA4A4"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workers Compensation Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card4"
+        android:layout_below="@+id/card3"
+        android:background = "#AAA4A4"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bankruptcy Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card5"
+        android:layout_below="@+id/card4"
+        android:background = "#AAA4A4"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Family Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card6"
+        android:layout_below="@+id/card5"
+        android:background = "#AAA4A4"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Immigration Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card7"
+        android:layout_below="@+id/card6"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estate Planning Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card8"
+        android:layout_below="@+id/card7"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intellectual Property Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background = "#AAA4A4"
+    android:id="@+id/card9"
+    android:layout_below="@+id/card8"
+    android:foregroundGravity="center"
+    android:layout_marginTop="5sp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employment Lawyer"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/cardview_shadow_start_color"
+        />
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card10"
+        android:layout_below="@+id/card9"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corporate Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card11"
+        android:layout_below="@+id/card10"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Malpractice Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card12"
+        android:layout_below="@+id/card11"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tax Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background = "#AAA4A4"
+        android:id="@+id/card13"
+        android:layout_below="@+id/card12"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civil Litigation Lawyer"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/cardview_shadow_start_color"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
+</ScrollView>

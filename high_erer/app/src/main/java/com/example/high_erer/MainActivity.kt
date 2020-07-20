@@ -20,15 +20,18 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        button.setOnClickListener(){
-            var loginmsg  = if (email_edittext.text.toString().equals("user@gmail.com")
+            button.setOnClickListener(){
+            if (email_edittext.text.toString().equals("user@gmail.com")
                 && password_edittext.text.toString().equals("password")){
-                    "logged in successfully"
+                    //"logged in successfully"
+                    Toast.makeText(this , "logged in successfully", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, Content_Activity::class.java))
+                    finish()
                 }
-            else
-            "lofin failed"
+            else {
+                Toast.makeText(this , "logged in failed", Toast.LENGTH_SHORT).show()
+            }
 
-            Toast.makeText(this , loginmsg, Toast.LENGTH_SHORT).show()
         }
 
         register_click.setOnClickListener{
