@@ -10,7 +10,6 @@ import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_signup_.*
 
 class signup_Activity : AppCompatActivity() {
-
     private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,8 +21,8 @@ class signup_Activity : AppCompatActivity() {
         registerbutton.setOnClickListener{
             signupUser()
         }
-
     }
+
     fun signupUser() {
         if (email_edittext.text.toString().isEmpty()){
             email_edittext.error = "Please Enter E-mail"
@@ -46,16 +45,21 @@ class signup_Activity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email_edittext.text.toString(), password_edittext.text.toString())
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+                    val user = auth.currentUser
+                    user!!.sendEmailVerification()
+                        .addOnCompleteListener { task ->
+                            if (task.isSuccessful) {
+                                startActivity(Intent(this, MainActivity ::class.java))
+                                finish()
+                                //Log.d(TAG, "Email sent.")
+                            }
+                        }
                     // Sign in success, update UI with the signed-in user's information
-                    startActivity(Intent(this, MainActivity ::class.java))
-                    finish()
-
                 } else {
                     // If sign in fails, display a message to the user.
                     //Log.w(TAG, "createUserWithEmail:failure", task.exception)
                     Toast.makeText(baseContext, "Authentication failed.",
                         Toast.LENGTH_SHORT).show()
-
                 }
 
                 // ...
